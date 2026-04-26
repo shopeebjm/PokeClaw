@@ -122,7 +122,7 @@ Panduan dan aturan hanya digunakan ketika model tersebut terbukti membutuhkan st
 
 Model tersebut memilih alat yang tepat, mengisi parameter, dan mengeksekusi. Anda tidak perlu mengkonfigurasi apa pun untuk setiap aplikasi. Model tersebut hanya membaca layar dan bertindak.
 
-## Proven Quick Tasks
+## Tugas Cepat yang Terbukti
 
 Ini adalah tugas-tugas yang telah kami jalankan secara menyeluruh selama pengujian kualitas (QA) di perangkat.
 
