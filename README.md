@@ -114,11 +114,11 @@ Pengujian kualitas perangkat nyata yang berulang, bukan hanya demonstrasi sekali
 Perbandingan model Cloud vs Lokal pada kelompok tugas yang sama
 Panduan dan aturan hanya digunakan ketika model tersebut terbukti membutuhkan struktur tambahan.
 
-## See the UI
+## Lihat UI
 
-👉 **[Try the interactive demo on our landing page](https://agents-io.github.io/PokeClaw/)** — click through every screen without installing anything.
+👉 **[Try the interactive demo on our landing page](https://shopeebjm.github.io/PokeClaw/)** — click through every screen without installing anything.
 
-## What it does
+## Apa Fungsinya !
 
 Model tersebut memilih alat yang tepat, mengisi parameter, dan mengeksekusi. Anda tidak perlu mengkonfigurasi apa pun untuk setiap aplikasi. Model tersebut hanya membaca layar dan bertindak.
 
