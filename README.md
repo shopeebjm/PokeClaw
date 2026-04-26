@@ -33,13 +33,13 @@
 
 # PokeClaw (PocketClaw) — Agen Ai Di Perangkat Ponsel
 
-**PokeClaw**, also known as **PocketClaw**, is an open-source Android app for AI phone automation.
+'PokeClaw' juga dikenal sebagai 'PocketClaw' adalah aplikasi Android sumber terbuka untuk otomatisasi ponsel berbasis AI.
 
-It can run Gemma 4 on-device for local, private phone control, and it also supports optional cloud models when you want stronger reasoning for harder tasks.
+Aplikasi ini dapat menjalankan Gemma 4 di perangkat untuk kontrol telepon lokal dan pribadi, dan juga mendukung model cloud opsional ketika Anda menginginkan penalaran yang lebih kuat untuk tugas-tugas yang lebih sulit.
 
-The current public build is a local-first prototype for turning an Android phone into an AI-operated device.
+Versi publik saat ini adalah prototipe yang mengutamakan lokal untuk mengubah ponsel Android menjadi perangkat yang dioperasikan oleh AI.
 
-In Local mode, model execution stays inside your device. No account or API key is required for Local mode.
+Dalam mode Lokal, eksekusi model tetap berada di dalam perangkat Anda. Tidak diperlukan akun atau kunci API untuk mode Lokal.
 
 
 
