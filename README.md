@@ -209,32 +209,30 @@ LLM memiliki akses ke alat-alat ini dan memilihnya secara mandiri:
 | `take_screenshot` | Capture screen |
 | `finish` | Signal task completion |
 
-Alat-alat ini bersifat umum — alat ini berfungsi dengan aplikasi apa pun, kontak apa pun, dan bahasa apa pun. LLM memilih alat yang tepat dan mengisi parameter dari permintaan Anda
+Alat-alat ini bersifat umum — alat ini berfungsi dengan aplikasi apa pun, kontak apa pun, dan bahasa apa pun. LLM memilih alat yang tepat dan mengisi parameter dari permintaan Anda.
 
-## Tools + Skills
+# Alat + Keterampilan
+Model kecil di perangkat akan jauh lebih baik jika Anda memberinya panduan yang kuat. Oleh karena itu, kami memberikan PokeClaw kemampuan yang dapat digunakan kembali di samping alat-alat generik.
 
-Small on-device models get dramatically better when you give them a strong playbook. So we give PokeClaw reusable skills on top of generic tools.
+Fitur balasan otomatis adalah contoh yang bagus. Fitur ini tidak bekerja secara ajaib — ada alur kerja yang telah ditentukan sebelumnya di baliknya: buka obrolan → baca semua pesan yang terlihat di layar → buat balasan yang sesuai konteks → kirim → kembali ke halaman utama. Model ini mengikuti resep ini langkah demi langkah. Setiap alat dalam rantai tersebut bersifat umum: `open_app` berfungsi dengan aplikasi apa pun, `read_screen` berfungsi di layar apa pun,`send_message` berfungsi dengan kontak apa pun. Alur kerja hanya memberi tahu model alat mana yang harus digunakan dan dalam urutan apa.
 
-The auto-reply feature is a good example. It doesn't work by magic — there's a predefined workflow behind it: open the chat → read all visible messages on screen → generate a context-aware reply → send it → go back to home. The model follows this recipe step by step. Every tool in that chain is generic: `open_app` works with any app, `read_screen` works on any screen, `send_message` works with any contact. The workflow just tells the model which tools to use and in what order.
+Inilah yang kami sebut `Keterampilan` — alur kerja yang dapat digunakan kembali yang dibangun dari alat-alat generik. Kami secara aktif merancang sistem keterampilan yang terinspirasi oleh [arsitektur keterampilan Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills). Idenya: siapa pun dapat menulis keterampilan sebagai file teks sederhana yang menjelaskan langkah-langkahnya, dan LLM mengikutinya.
 
-This is what we're calling **Skills** — reusable workflows built from generic tools. We're actively designing a skill system inspired by [Claude Code's skill architecture](https://docs.anthropic.com/en/docs/claude-code/skills). The idea: anyone can write a skill as a simple text file that describes the steps, and the LLM follows it.
+Beberapa contoh hal yang dapat dilakukan oleh keterampilan:
 
-Some examples of what skills can do:
+`Balas otomatis` : pantau notifikasi → buka obrolan → baca percakapan → buat balasan → kirim
+`Ringkasan pagi` : buka aplikasi cuaca → baca suhu → buka kalender → baca acara hari ini → buka email → hitung email yang belum dibaca → rangkum semuanya
+`Penerusan cerdas` : tangkap notifikasi → buka pesan → baca → teruskan ke kontak lain dengan ringkasan.
+`Pemesanan otomatis` : buka aplikasi pemesanan → cari slot waktu → isi detail → konfirmasi
+Setiap keterampilan hanyalah kombinasi dari alat-alat umum yang sama ( `open_app`, `tap`, `type`, `read_screen`, `send_message`, dll.) yang disusun dalam urutan tertentu. Alat-alat tersebut adalah blok bangunan, keterampilan adalah resepnya.
 
-- **Auto-reply**: monitor notifications → open chat → read conversation → generate reply → send
-- **Morning briefing**: open weather app → read temperature → open calendar → read today's events → open email → count unread → summarize everything
-- **Smart forward**: catch a notification → open the message → read it → forward to another contact with a summary
-- **Auto-booking**: open a booking app → search for a time slot → fill in details → confirm
+Keduanya dirancang agar dapat diperluas. Kami membangun 8-10 keterampilan pertama sebagai fitur bawaan. Jika sistemnya berfungsi dengan baik, kami akan membukanya bagi komunitas untuk membuat dan berbagi alat dan keterampilan mereka sendiri. Anda lebih mengenal ponsel Anda daripada kami — Anda seharusnya dapat mengajarkan trik baru padanya.
 
-Each skill is just a combination of the same generic tools (`open_app`, `tap`, `type`, `read_screen`, `send_message`, etc.) arranged in a specific order. The tools are the building blocks, the skills are the recipes.
-
-Both are designed to be extensible. We're building the first 8-10 skills as built-in defaults. If the system works well, we'll open it up for the community to create and share their own tools and skills. You know your phone better than we do — you should be able to teach it new tricks.
-
-As on-device models get smarter, more of this can become free-form. Right now, skills are how we get reliable automation out of a small local model while keeping the tool layer generic.
+Seiring model pada perangkat menjadi lebih pintar, sebagian besar hal ini dapat menjadi bebas bentuk. Saat ini, keterampilan adalah cara kita mendapatkan otomatisasi yang andal dari model lokal kecil sambil menjaga lapisan alat tetap generik.
 
 ## Download
 
-[**Download APK**](https://github.com/agents-io/PokeClaw/releases/latest)
+[**Download APK**](https://github.com/shopeebjm/PokeClaw/releases/latest)
 
 > Note: If you are updating from an older public debug build and Android says the package is incompatible, uninstall the old build once and then install the latest APK fresh. Older public debug builds still receive the in-app update prompt, but they need a one-time reinstall before joining the stable-signed `0.6.x` line.
 
