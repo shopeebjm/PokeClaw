@@ -50,11 +50,13 @@ Everyone else:  Phone → Internet → Cloud API → Internet → Phone
 PokeClaw local: Phone → LLM → Phone
                        Local-first when you want it. Optional cloud when you need it.
 ```
-**AI can control your phone, with local-first execution and optional cloud help.**
+AI dapat mengontrol ponsel Anda, dengan eksekusi lokal terlebih dahulu dan bantuan cloud opsional.
 
-The current public build is open-source and already handles real chat, task, and automation flows on Android.
+Versi publik saat ini bersifat open-source dan sudah menangani alur obrolan, tugas, dan otomatisasi yang sebenarnya di Android.
 
-Monitor a WhatsApp contact and auto-reply:
+Pantau kontak WhatsApp dan balas otomatis:
+
+Balasan otomatis WhatsApp yang peka terhadap konteks:
 
 
 Context-aware WhatsApp auto-reply:
