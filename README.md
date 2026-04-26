@@ -56,8 +56,6 @@ Versi publik saat ini bersifat open-source dan sudah menangani alur obrolan, tug
 
 Pantau kontak WhatsApp dan balas otomatis:
 
-Balasan otomatis WhatsApp yang peka terhadap konteks:
-
 
 Context-aware WhatsApp auto-reply:
 
