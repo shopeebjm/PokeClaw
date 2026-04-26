@@ -187,9 +187,10 @@ Untuk `local-core` paket tugas cepat saat ini pada Pixel 8 Pro, Gemma 4 E2B lolo
 
 
 
-## How it works
+# Cara Kerjanya
+PokeClaw memberikan serangkaian alat kepada LLM (Live Link Manager) kecil di perangkat (ketuk, geser, ketik, buka aplikasi, kirim pesan, aktifkan balasan otomatis, dll.) dan membiarkannya memutuskan apa yang harus dilakukan. LLM melihat representasi teks dari layar saat ini, memilih tindakan, melihat hasilnya, memilih tindakan berikutnya, hingga tugas selesai.
 
-PokeClaw gives a small on-device LLM a set of tools (tap, swipe, type, open app, send message, enable auto-reply, etc.) and lets it decide what to do. The LLM sees a text representation of the current screen, picks an action, sees the result, picks the next action, until the task is done.
+Eksekusi lokal berjalan melalui LiteRT-LM dengan pemanggilan alat asli. Dalam mode Lokal, model berjalan di perangkat.
 
 Local execution runs via [LiteRT-LM](https://ai.google.dev/edge/litert/llm/overview) with native tool calling. In Local mode, the model runs on-device.
 
