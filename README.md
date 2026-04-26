@@ -124,31 +124,31 @@ Model tersebut memilih alat yang tepat, mengisi parameter, dan mengeksekusi. And
 
 ## Proven Quick Tasks
 
-These are tasks we have already run end-to-end during on-device QA.
+Ini adalah tugas-tugas yang telah kami jalankan secara menyeluruh selama pengujian kualitas (QA) di perangkat.
 
 ### Local mode
 
-- Summarize notifications
-- Explain clipboard contents
-- Analyze storage / apps and suggest cleanup targets
-- Check whether the battery needs charging
-- Report installed apps
-- Report phone temperature
-- Report Bluetooth state
-- Report battery, storage, and Android version
-- Run quick-task cards directly from the UI and return the result in chat
-- Route contact-specific send / call tasks correctly and fail cleanly when the contact does not exist on the device
+- Ringkaskan pemberitahuan
+Jelaskan isi clipboard.
+- Menganalisis penyimpanan/aplikasi dan menyarankan target pembersihan.
+- Periksa apakah baterai perlu diisi daya.
+- Laporkan aplikasi yang terpasang
+- Laporkan suhu telepon
+- Laporkan status Bluetooth
+- Laporkan status baterai, penyimpanan,dan versi Android.
+- Jalankan kartu tugas cepat langsung dari antarmuka pengguna dan kembalikan hasilnya di obrolan.
+- Arahkan tugas kirim/panggilan khusus kontak dengan benar dan berikan penanganan kegagalan yang baik ketika kontak tidak ada di perangkat.
 
 ### Cloud mode
 
-- Send a WhatsApp message and auto-return to the same PokeClaw conversation
-- Search inside YouTube in the real app
-- Check what is trending on Twitter / X and summarize it
-- Install or open Telegram from Play Store
-- Open Reddit and search for `pokeclaw`
-- Copy the latest email subject and Google it
-- Draft an email saying you will be late
-- Preserve task state and session history across cross-app execution and return
+- Kirim pesan WhatsApp dan otomatis kembali ke percakapan PokeClaw yang sama.
+- Cari di dalam YouTube di aplikasi sebenarnya.
+- Periksa apa yang sedang tren di Twitter/X dan rangkumlah.
+- Instal atau buka Telegram dari Play Store.
+- Buka Reddit dan caripokeclaw
+- Salin subjek email terbaru dan cari di Google.
+- Buatlah draf email yang menyatakan bahwa Anda akan terlambat.
+- Pertahankan status tugas dan riwayat sesi di seluruh eksekusi lintas aplikasi dan kembalikan
 
 ## Benchmark & Real-Device QA
 
