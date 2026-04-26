@@ -95,25 +95,24 @@ PokeClaw sudah mendukung otomatisasi sepenuhnya di perangkat dengan Gemma 4 dan 
 
 **Jika Anda menemukan sesuatu yang menarik,[buatlah sebuah issue](https://github.com/shopeebjm/PokeClaw/issues).** Laporan dari perangkat sebenarnya adalah cara agar hal ini dapat berkembang dengan cepat.
 
-## Product Direction
+## Arah Produk
 
-PokeClaw is not just a chat app with a few phone-control tricks glued on top.
+PokeClaw bukan sekadar aplikasi obrolan dengan beberapa trik kontrol ponsel yang ditambahkan di atasnya.
 
-At its core, it is becoming a **mobile agent harness**:
+Pada intinya, ini menjadi sebuah **perangkat pendukung agen bergerak** :
 
-- a generic tool layer for phone control
-- a task/runtime loop that lets a model choose and chain those tools
-- playbooks, rules, and guards that can be iterated against real device QA
-- a product shell on top so the same harness is usable by normal people, not just developers
+lapisan alat generik untuk kontrol telepon
+sebuah perulangan tugas/runtime yang memungkinkan model untuk memilih dan menghubungkan alat-alat tersebut.
+Panduan, aturan, dan pengamanan yang dapat diuji coba terhadap pengujian kualitas perangkat nyata.
+cangkang produk di bagian atas sehingga tali pengikat yang sama dapat digunakan oleh orang biasa, bukan hanya pengembang.
+Perbedaan itu penting. Tujuan jangka panjangnya bukanlah untuk terus-menerus membuat alur aplikasi sekali pakai yang kaku. Tujuannya adalah untuk membangun kerangka kerja praktis terkuat untuk agen AI di ponsel Android, kemudian meluncurkan pengalaman produk di atas fondasi tersebut.
 
-That distinction matters. The long-term goal is not to hardcode one-off app flows forever. The goal is to build the strongest practical harness for AI phone agents on Android, then ship product experiences on top of that foundation.
+Itulah juga alasan mengapa proyek ini berinvestasi besar-besaran pada:
 
-That is also why the project invests so heavily in:
-
-- generic tools before narrow workflows
-- repeated real-device QA instead of one-off demos
-- Cloud vs Local model comparisons on the same task families
-- playbooks and rules only when the model proves it needs extra structure
+alat generik sebelum alur kerja yang lebih spesifik
+Pengujian kualitas perangkat nyata yang berulang, bukan hanya demonstrasi sekali saja.
+Perbandingan model Cloud vs Lokal pada kelompok tugas yang sama
+Panduan dan aturan hanya digunakan ketika model tersebut terbukti membutuhkan struktur tambahan.
 
 ## See the UI
 
