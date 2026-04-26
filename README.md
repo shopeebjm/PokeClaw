@@ -234,7 +234,7 @@ Seiring model pada perangkat menjadi lebih pintar, sebagian besar hal ini dapat 
 
 [**Download APK**](https://github.com/shopeebjm/PokeClaw/releases/latest)
 
-> Note: If you are updating from an older public debug build and Android says the package is incompatible, uninstall the old build once and then install the latest APK fresh. Older public debug builds still receive the in-app update prompt, but they need a one-time reinstall before joining the stable-signed `0.6.x` line.
+> Catatan: Jika Anda memperbarui dari versi debug publik yang lebih lama dan Android mengatakan paket tersebut tidak kompatibel, hapus instalasi versi lama sekali lalu instal APK terbaru dari awal. Versi debug publik yang lebih lama masih menerima pemberitahuan pembaruan dalam aplikasi, tetapi perlu diinstal ulang satu kali sebelum bergabung dengan 0.6.xjajaran versi stabil yang ditandatangani.
 
 ### Requirements
 
