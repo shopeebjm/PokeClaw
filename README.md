@@ -50,7 +50,7 @@ Everyone else:  Phone → Internet → Cloud API → Internet → Phone
 PokeClaw local: Phone → LLM → Phone
                        Local-first when you want it. Optional cloud when you need it.
 ```
-AI dapat mengontrol ponsel Anda, dengan eksekusi lokal terlebih dahulu dan bantuan cloud opsional.
+**AI dapat mengontrol ponsel Anda, dengan eksekusi lokal terlebih dahulu dan bantuan cloud opsional.**
 
 Versi publik saat ini bersifat open-source dan sudah menangani alur obrolan, tugas, dan otomatisasi yang sebenarnya di Android.
 
