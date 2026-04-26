@@ -257,9 +257,9 @@ Seiring model pada perangkat menjadi lebih pintar, sebagian besar hal ini dapat 
 4.Dalam mode Lokal, model akan diunduh saat pertama kali diluncurkan secara lokal (~2,6 GB).
 5.Beralihlah ke mode Obrolan atau Tugas dan mulailah menggunakannya.
 
-## Roadmap
+## Peta Jalan
 
-This is the current direction for PokeClaw based on real device testing, open issues, and the most common feature requests.
+Inilah arah pengembangan PokeClaw saat ini berdasarkan pengujian pada perangkat nyata, masalah yang terbuka, dan permintaan fitur yang paling umum
 
 ### Near-term
 
