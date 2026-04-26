@@ -172,7 +172,7 @@ Setiap angka di bawah ini berasal dari uji coba berulang pada Pixel 8 Pro fisik 
 | Draft an email saying I'll be late | ✅ **10/10** | 8 | Repeated trials: 100% pass rate |
 | Copy latest email subject and Google it | ✅ **8/10** | 15 | Gmail to Chrome cross-app flow, 80% pass rate |
 
-All tasks use zero hardcoded app logic. The model reads the screen, picks tools, and figures out the flow on its own. Multi-language works out of the box, including Cantonese, Mandarin, and misspelled English.
+Semua tugas tidak menggunakan logika aplikasi yang dikodekan secara manual. Model membaca layar, memilih alat, dan menentukan alurnya sendiri. Dukungan multibahasa berfungsi langsung tanpa perlu konfigurasi tambahan, termasuk bahasa Kanton, Mandarin, dan bahasa Inggris yang salah eja.
 
 ### Local (Gemma 4 E2B, fully on-device) — verified on CPU and GPU
 
