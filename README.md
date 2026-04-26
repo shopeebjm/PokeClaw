@@ -93,8 +93,6 @@ Bagian yang menarik bukanlah sekadar mengobrol dengan model lokal. Bagian yang m
 
 PokeClaw sudah mendukung otomatisasi sepenuhnya di perangkat dengan Gemma 4 dan model cloud opsional untuk eksekusi tugas yang lebih kuat. Fokus saat ini adalah dukungan perangkat yang lebih luas, keterampilan yang lebih umum, lebih banyak opsi model lokal, dan jalur rilis publik yang lebih bersih.
 
-**If you hit something interesting, [open an issue](https://github.com/agents-io/PokeClaw/issues).** Real device reports are how this gets better fast.
-
 **Jika Anda menemukan sesuatu yang menarik,[buatlah sebuah issue](https://github.com/shopeebjm/PokeClaw/issues).** Laporan dari perangkat sebenarnya adalah cara agar hal ini dapat berkembang dengan cepat.
 
 ## Product Direction
