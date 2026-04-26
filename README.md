@@ -63,9 +63,9 @@ https://github.com/user-attachments/assets/5a43d4d5-458a-4eea-a0a5-58d113255741
 
 https://github.com/user-attachments/assets/5c2966c5-04e6-4b22-8d66-11915ae62096
 
-> **☝️ Auto-reply demo:** PokeClaw monitors messages from Mom, reads what she said, and replies based on context using the on-device LLM. [Watch in higher resolution on YouTube](https://youtube.com/shorts/Vxpf474chm0)
+> **☝️ Auto-reply demo:** . [Watch in higher resolution on YouTube](https://youtube.com/shorts/Vxpf474chm0)
 
-> **☝️ Context demo:** Mom asks "what did I tell you to bring?" — the AI opens the chat, reads the full conversation on screen, sees the earlier message about wine, and replies correctly. This is the difference between context-aware and context-free replies.
+> **☝️ Context demo:** Ibu bertanya "apa yang sudah Ibu suruh kamu bawa?" — AI membuka obrolan, membaca seluruh percakapan di layar, melihat pesan sebelumnya tentang anggur, dan membalas dengan benar. Inilah perbedaan antara balasan yang peka konteks dan balasan yang tidak peka konteks.
 
 https://github.com/user-attachments/assets/89999dd8-a1be-49ad-9419-60c2b38f6374
 
