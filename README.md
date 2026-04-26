@@ -183,7 +183,7 @@ Semua tugas tidak menggunakan logika aplikasi yang dikodekan secara manual. Mode
 | Battery advice | ✅ | 2m 12s | 2m 53s | Returns level + charging state |
 | Storage + apps cleanup advice | ✅ | 2m 33s | 3m 06s | Harness used to mislabel this as blocked because the answer mentioned the Contacts app |
 
-For the current `local-core` quick-task bundle on a Pixel 8 Pro, Gemma 4 E2B passed `4/4` on both CPU and GPU. Cold-start average time was `2m 34s` on CPU versus `2m 46s` on GPU, so GPU is now **verified and usable** on this device, but it is **not yet a cold-start speed win** for this short task bundle. The value of the recent hardening work is stability and real backend verification, not inflated benchmark theater.
+Untuk `local-core` paket tugas cepat saat ini pada Pixel 8 Pro, Gemma 4 E2B lolos pengujian `4/4` pada CPU dan GPU. Waktu rata-rata cold-start lebih banyak `2m 34s` pada CPU dibandingkan `2m 46s` pada GPU, jadi GPU sekarang **terverifikasi dan dapat digunakan** pada perangkat ini, tetapi **belum merupakan peningkatan kecepatan cold-start** untuk paket tugas singkat ini. Nilai dari pekerjaan pengerasan terbaru adalah stabilitas dan verifikasi backend yang sebenarnya, bukan sekadar pertunjukan benchmark yang dilebih-lebihkan.
 
 
 
