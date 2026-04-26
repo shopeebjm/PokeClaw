@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  🌐 <a href="https://agents-io.github.io/PokeClaw/">Landing Page</a> — available in English · हिन्दी · 日本語 · Deutsch · 繁中
+  🌐 <a href="https://shopeebjm.github.com/PokeClaw/">Landing Page</a> — available in English · हिन्दी · 日本語 · Deutsch · 繁中
 </p>
 
 # PokeClaw (PocketClaw) — On-Device AI Phone Agent
