@@ -33,7 +33,7 @@
 
 # PokeClaw (PocketClaw) — Agen Ai Di Perangkat Ponsel
 
-'PokeClaw' juga dikenal sebagai 'PocketClaw' adalah aplikasi Android sumber terbuka untuk otomatisasi ponsel berbasis AI.
+`PokeClaw` juga dikenal sebagai `PocketClaw` adalah aplikasi Android sumber terbuka untuk otomatisasi ponsel berbasis AI.
 
 Aplikasi ini dapat menjalankan Gemma 4 di perangkat untuk kontrol telepon lokal dan pribadi, dan juga mendukung model cloud opsional ketika Anda menginginkan penalaran yang lebih kuat untuk tugas-tugas yang lebih sulit.
 
