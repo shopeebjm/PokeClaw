@@ -120,7 +120,7 @@ Panduan dan aturan hanya digunakan ketika model tersebut terbukti membutuhkan st
 
 ## What it does
 
-The model picks the right tool, fills in the parameters, and executes. You don't configure anything per-app. It just reads the screen and acts.
+Model tersebut memilih alat yang tepat, mengisi parameter, dan mengeksekusi. Anda tidak perlu mengkonfigurasi apa pun untuk setiap aplikasi. Model tersebut hanya membaca layar dan bertindak.
 
 ## Proven Quick Tasks
 
