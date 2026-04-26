@@ -76,7 +76,7 @@ https://github.com/user-attachments/assets/89999dd8-a1be-49ad-9419-60c2b38f6374
 > - **Dimensity 9200/9300** (recent MediaTek flagships)
 > - **Snapdragon 7+ Gen 2+** (mid-range with GPU)
 >
-> On these devices, warmup drops to seconds. Same model, better hardware.
+> Pada perangkat ini, waktu pemanasan turun menjadi beberapa detik. Model yang sama, perangkat keras yang lebih baik.
 
 
 
@@ -85,13 +85,13 @@ https://github.com/user-attachments/assets/89999dd8-a1be-49ad-9419-60c2b38f6374
 
 
 
-## The Story
+## Cerita
 
-I'm building this solo. When Gemma 4 landed with native tool calling on LiteRT-LM, I wanted to know whether a phone could become a real on-device agent instead of just another chatbot. PokeClaw is the result.
+Saya membangun ini sendirian. Ketika Gemma 4 hadir dengan pemanggilan alat bawaan pada LiteRT-LM, saya ingin tahu apakah ponsel dapat menjadi agen di perangkat yang sesungguhnya, bukan hanya sekadar chatbot. PokeClaw adalah hasilnya.
 
-The interesting part is not just chatting with a local model. The interesting part is getting a local model to read the screen, choose tools, operate apps, keep task state, and finish real phone workflows. That is exactly what this project is built for.
+Bagian yang menarik bukanlah sekadar mengobrol dengan model lokal. Bagian yang menarik adalah membuat model lokal membaca layar, memilih alat, mengoperasikan aplikasi, menyimpan status tugas, dan menyelesaikan alur kerja ponsel yang sebenarnya. Itulah tepatnya tujuan dari proyek ini.
 
-PokeClaw already supports fully on-device automation with Gemma 4 and optional cloud models for stronger task execution. The current focus is broader device support, more generic skills, more local model options, and a cleaner public release path.
+PokeClaw sudah mendukung otomatisasi sepenuhnya di perangkat dengan Gemma 4 dan model cloud opsional untuk eksekusi tugas yang lebih kuat. Fokus saat ini adalah dukungan perangkat yang lebih luas, keterampilan yang lebih umum, lebih banyak opsi model lokal, dan jalur rilis publik yang lebih bersih.
 
 **If you hit something interesting, [open an issue](https://github.com/agents-io/PokeClaw/issues).** Real device reports are how this gets better fast.
 
