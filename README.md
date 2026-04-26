@@ -95,6 +95,8 @@ PokeClaw sudah mendukung otomatisasi sepenuhnya di perangkat dengan Gemma 4 dan 
 
 **If you hit something interesting, [open an issue](https://github.com/agents-io/PokeClaw/issues).** Real device reports are how this gets better fast.
 
+**Jika Anda menemukan sesuatu yang menarik,[buatlah sebuah issue](https://github.com/shopeebjm/PokeClaw/issues).** Laporan dari perangkat sebenarnya adalah cara agar hal ini dapat berkembang dengan cepat.
+
 ## Product Direction
 
 PokeClaw is not just a chat app with a few phone-control tricks glued on top.
