@@ -252,9 +252,13 @@ Seiring model pada perangkat menjadi lebih pintar, sebagian besar hal ini dapat 
 ## Mulai Cepat
 
 1.Instal APK
+
 2.Berikan izin Aksesibilitas saat diminta.
+
 3.Jika Anda menginginkan alur pemantauan latar belakang, berikan juga Akses Pemberitahuan.
+
 4.Dalam mode Lokal, model akan diunduh saat pertama kali diluncurkan secara lokal (~2,6 GB).
+
 5.Beralihlah ke mode Obrolan atau Tugas dan mulailah menggunakannya.
 
 ## Peta Jalan
