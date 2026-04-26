@@ -70,7 +70,7 @@ https://github.com/user-attachments/assets/5c2966c5-04e6-4b22-8d66-11915ae62096
 https://github.com/user-attachments/assets/89999dd8-a1be-49ad-9419-60c2b38f6374
 
 
-> **Why is the "hi" demo slow?** That clip was recorded on a CPU-only Android device with no usable GPU or NPU path. Running Gemma 4 E2B on pure CPU takes about 45 seconds to warm up. On stronger phones it is much faster:
+> **Why is the "hi" demo slow?** Klip itu direkam pada perangkat Android yang hanya menggunakan CPU tanpa jalur GPU atau NPU yang dapat digunakan. Menjalankan Gemma 4 E2B pada CPU murni membutuhkan waktu sekitar 45 detik untuk pemanasan. Pada ponsel yang lebih canggih, prosesnya jauh lebih cepat:
 > - **Google Tensor G3/G4** (Pixel 8, Pixel 9)
 > - **Snapdragon 8 Gen 2/3** (Galaxy S24, OnePlus 12)
 > - **Dimensity 9200/9300** (recent MediaTek flagships)
