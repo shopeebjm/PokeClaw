@@ -31,7 +31,7 @@
   🌐 <a href="https://shopeebjm.github.com/PokeClaw/">Landing Page</a> — available in English · हिन्दी · 日本語 · Deutsch · 繁中
 </p>
 
-# PokeClaw (PocketClaw) — On-Device AI Phone Agent
+# PokeClaw (PocketClaw) — Agen Ai Di Perangkat Ponsel
 
 **PokeClaw**, also known as **PocketClaw**, is an open-source Android app for AI phone automation.
 
