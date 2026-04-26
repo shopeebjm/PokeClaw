@@ -236,7 +236,7 @@ Seiring model pada perangkat menjadi lebih pintar, sebagian besar hal ini dapat 
 
 > Catatan: Jika Anda memperbarui dari versi debug publik yang lebih lama dan Android mengatakan paket tersebut tidak kompatibel, hapus instalasi versi lama sekali lalu instal APK terbaru dari awal. Versi debug publik yang lebih lama masih menerima pemberitahuan pembaruan dalam aplikasi, tetapi perlu diinstal ulang satu kali sebelum bergabung dengan 0.6.xjajaran versi stabil yang ditandatangani.
 
-### Requirements
+### Persyaratan
 
 | | Minimum | Recommended |
 |---|---|---|
@@ -247,7 +247,7 @@ Seiring model pada perangkat menjadi lebih pintar, sebagian besar hal ini dapat 
 | **GPU** | Not required (CPU works) | Tensor G3/G4, Snapdragon 8 Gen 2+, Dimensity 9200+ |
 | **Root** | Not required | Not required |
 
-> ⚠️ 8 GB gets you in the door. 12 GB+ is the sweet spot for the built-in Gemma 4 local models, especially if you want smoother multitasking and faster model bring-up.
+> ⚠️RAM 8 GB sudah cukup untuk memulai. RAM 12 GB ke atas adalah pilihan terbaik untuk model lokal Gemma 4 bawaan, terutama jika Anda menginginkan multitasking yang lebih lancar dan proses booting model yang lebih cepat.
 
 ## Quick start
 
