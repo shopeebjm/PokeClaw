@@ -150,9 +150,9 @@ Jelaskan isi clipboard.
 - Buatlah draf email yang menyatakan bahwa Anda akan terlambat.
 - Pertahankan status tugas dan riwayat sesi di seluruh eksekusi lintas aplikasi dan kembalikan
 
-## Benchmark & Real-Device QA
+## Pengujian Kinerja & Jaminan Kualitas Perangkat Nyata
 
-Every number below comes from repeated trials on a physical Pixel 8 Pro running release builds. No cherry-picked runs, no emulators. The full verified task list and tier breakdown is in [thoughts/verified-task-capabilities.md](thoughts/verified-task-capabilities.md).
+Setiap angka di bawah ini berasal dari uji coba berulang pada Pixel 8 Pro fisik yang menjalankan build rilis. Tidak ada uji coba yang dipilih-pilih, tidak ada emulator. Daftar tugas terverifikasi lengkap dan rincian tingkatannya ada di [thoughts/verified-task-capabilities.md](thoughts/verified-task-capabilities.md).
 
 ### Cloud (GPT-4.1) — 18/20 pass, real tasks on real phone
 
