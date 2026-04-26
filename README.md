@@ -194,9 +194,9 @@ Eksekusi lokal berjalan melalui LiteRT-LM dengan pemanggilan alat asli. Dalam mo
 
 Local execution runs via [LiteRT-LM](https://ai.google.dev/edge/litert/llm/overview) with native tool calling. In Local mode, the model runs on-device.
 
-## Tools
+## Peralatan
 
-The LLM has access to these tools and picks them autonomously:
+LLM memiliki akses ke alat-alat ini dan memilihnya secara mandiri:
 
 | Tool | What it does |
 |------|-------------|
