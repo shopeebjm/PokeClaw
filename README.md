@@ -249,15 +249,13 @@ Seiring model pada perangkat menjadi lebih pintar, sebagian besar hal ini dapat 
 
 > ⚠️RAM 8 GB sudah cukup untuk memulai. RAM 12 GB ke atas adalah pilihan terbaik untuk model lokal Gemma 4 bawaan, terutama jika Anda menginginkan multitasking yang lebih lancar dan proses booting model yang lebih cepat.
 
-## Quick start
+## Mulai Cepat
 
-1. Install the APK
-2. Grant Accessibility permission when prompted
-3. If you want background monitor flows, also grant Notification Access
-4. In Local mode, the model downloads on first local launch (~2.6 GB)
-5. Switch to Chat or Task mode and start using it
-
-Local mode needs no account and no API key. Cloud mode is optional.
+1.Instal APK
+2.Berikan izin Aksesibilitas saat diminta.
+3.Jika Anda menginginkan alur pemantauan latar belakang, berikan juga Akses Pemberitahuan.
+4.Dalam mode Lokal, model akan diunduh saat pertama kali diluncurkan secara lokal (~2,6 GB).
+5.Beralihlah ke mode Obrolan atau Tugas dan mulailah menggunakannya.
 
 ## Roadmap
 
