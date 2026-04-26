@@ -209,7 +209,7 @@ LLM memiliki akses ke alat-alat ini dan memilihnya secara mandiri:
 | `take_screenshot` | Capture screen |
 | `finish` | Signal task completion |
 
-These tools are generic — they work with any app, any contact, any language. The LLM picks the right tool and fills in the parameters from your request.
+Alat-alat ini bersifat umum — alat ini berfungsi dengan aplikasi apa pun, kontak apa pun, dan bahasa apa pun. LLM memilih alat yang tepat dan mengisi parameter dari permintaan Anda
 
 ## Tools + Skills
 
